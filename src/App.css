@@ -1,0 +1,35 @@
+.menu {
+    text-align:center;
+    width: 100%;
+}
+.active{
+    color:dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+    display: inline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.inactive{
+    color: grey;
+    padding-bottom: .5px;
+    display: inline;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fade-in {
+    opacity: 0;
+}
+.fade-in.visible {
+    transition: opacity 1s ease-in;
+    opacity: 1;
+}
